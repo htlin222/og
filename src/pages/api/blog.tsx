@@ -67,11 +67,11 @@ export default async function handler(req: NextRequest) {
           >
             <h3
               style={{ margin: 0 }}
-              tw={clsx('text-2xl font-normal text-gray-300')}
+              tw={clsx('text-[4.0rem] font-normal text-gray-300')}
             >
-              physician.tw
+              蜥蜴花園 🪴 physician.tw
             </h3>
-            <h1 tw={clsx('mt-0', 'text-4xl leading-tight font-normal')}>
+            <h1 tw={clsx('mt-0', 'text-[6.0rem] leading-tight font-normal')}>
               <span
                 style={
                   {
@@ -97,7 +97,7 @@ export default async function handler(req: NextRequest) {
               }}
             >
               <img
-                tw='w-[80px] rounded-full'
+                tw='w-[120px] rounded-full'
                 src='https://i.imgur.com/MwSJnEq.jpg'
                 alt='Photo of 🦎'
               />
@@ -110,11 +110,11 @@ export default async function handler(req: NextRequest) {
               >
                 <p
                   style={{ margin: 0 }}
-                  tw='font-medium text-[1.6rem] mt-0 text-white'
+                  tw='font-medium text-[2.6rem] mt-0 text-white'
                 >
                   Hsieht-Ting Lin M.D. 林協霆醫師 
                 </p>
-                <p style={{ margin: 0 }} tw='text-xl mt-0 text-gray-300'>
+                <p style={{ margin: 0 }} tw='text-[2.0rem] mt-0 text-gray-300'>
                   @htlin222
                 </p>
               </div>
