@@ -71,7 +71,7 @@ export default async function handler(req: NextRequest) {
             >
               蜥蜴花園 🪴 physician.tw
             </h3>
-            <h1 tw={clsx('mt-0', 'text-[6.0rem] leading-tight font-normal')}>
+            <h1 tw={clsx('mt-0', 'text-[4.5rem] leading-tight font-normal')}>
               <span
                 style={
                   {
