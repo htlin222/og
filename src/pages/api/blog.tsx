@@ -67,7 +67,7 @@ export default async function handler(req: NextRequest) {
           >
             <h3
               style={{ margin: 0 }}
-              tw={clsx('text-[4.0rem] font-normal text-gray-300')}
+              tw={clsx('text-[3.0rem] font-normal text-gray-300')}
             >
               蜥蜴花園 🪴 physician.tw
             </h3>
@@ -91,13 +91,13 @@ export default async function handler(req: NextRequest) {
               style={{
                 display: 'flex',
                 flexDirection: 'row',
-                gap: '1.4rem',
+                gap: '2.4rem',
                 alignItems: 'center',
                 marginTop: 'auto',
               }}
             >
               <img
-                tw='w-[120px] rounded-full'
+                tw='w-[100px] rounded-full'
                 src='https://i.imgur.com/MwSJnEq.jpg'
                 alt='Photo of 🦎'
               />
