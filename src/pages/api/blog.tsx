@@ -26,7 +26,7 @@ export default async function handler(req: NextRequest) {
   const banner = searchParams.get('banner');
 
   const query = {
-    templateTitle: templateTitle ?? 'Blog Title',
+    templateTitle: templateTitle ?? '蜥蜴花園🪴',
     banner,
   };
 
