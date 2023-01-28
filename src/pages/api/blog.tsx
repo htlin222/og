@@ -69,7 +69,7 @@ export default async function handler(req: NextRequest) {
               style={{ margin: 0 }}
               tw={clsx('text-2xl font-normal text-gray-300')}
             >
-              theodorusclarence.com/blog
+              physician.tw
             </h3>
             <h1 tw={clsx('mt-0', 'text-4xl leading-tight font-normal')}>
               <span
@@ -98,8 +98,8 @@ export default async function handler(req: NextRequest) {
             >
               <img
                 tw='w-[80px] rounded-full'
-                src='https://res.cloudinary.com/theodorusclarence/image/upload/c_fill,g_auto:face,h_160,w_160/v1673957822/theodorusclarence/about/self-3_square_jtiwai.jpg'
-                alt='Photo of me'
+                src='https://i.imgur.com/MwSJnEq.jpg'
+                alt='Photo of 🦎'
               />
               <div
                 style={{
@@ -112,10 +112,10 @@ export default async function handler(req: NextRequest) {
                   style={{ margin: 0 }}
                   tw='font-medium text-[1.6rem] mt-0 text-white'
                 >
-                  Theodorus Clarence
+                  Hsieht-Ting Lin M.D. 林協霆醫師 
                 </p>
                 <p style={{ margin: 0 }} tw='text-xl mt-0 text-gray-300'>
-                  @th_clarence
+                  @htlin222
                 </p>
               </div>
             </div>
