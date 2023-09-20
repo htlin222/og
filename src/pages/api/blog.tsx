@@ -112,7 +112,7 @@ export default async function handler(req: NextRequest) {
                   style={{ margin: 0 }}
                   tw='font-medium text-[2.6rem] mt-0 text-white'
                 >
-                  Hsieht-Ting Lin M.D. 林協霆醫師 
+                  Hsieh-Ting Lin M.D. 林協霆醫師
                 </p>
                 <p style={{ margin: 0 }} tw='text-[2.0rem] mt-0 text-gray-300'>
                   @htlin222
