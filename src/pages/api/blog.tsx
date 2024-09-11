@@ -80,6 +80,9 @@ export default async function handler(req: NextRequest) {
                     '-webkit-background-clip': 'text',
                     color: 'transparent',
                     padding: '0.5rem 0',
+                    wordWrap: 'break-word',  // 自動換行
+                    wordBreak: 'break-all',   // 讓單字也能斷行
+                    maxWidth: '1000px',       // 設定最大寬度
                   } as CSSProperties
                 }
               >
